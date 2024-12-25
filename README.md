@@ -1,14 +1,14 @@
-Project Name: Influencer Engagement & Sponsorship Coordination Platform - V2
-Author:
-Kaushal P Prajapati
-University: Indian Institute of Technology, Madras (IITM)
-Course: Modern Application Development II
+# Project Name: Influencer Engagement & Sponsorship Coordination Platform - V2
+## Author:
+## Kaushal P Prajapati
+## University: Indian Institute of Technology, Madras (IITM)
+## Course: Modern Application Development II
 
-Description:
+## Description:
 
 The Influencer Engagement & Sponsorship Coordination Platform is designed to create a dynamic ecosystem that connects sponsors and influencers, facilitating a seamless process for advertising products and services. This platform serves as a bridge between companies looking to promote their offerings and influencers seeking to monetize their social media presence.
 
-Technologies Used:
+## Technologies Used:
 
 The Influencer Engagement & Sponsorship Coordination Platform leverages a diverse set of technologies to ensure a robust, efficient, and user-friendly application. The following technologies were employed:
 •	Vue CLI: Utilized for developing the front-end user interface, enabling a responsive and interactive design that enhances user experience.
@@ -22,7 +22,7 @@ The Influencer Engagement & Sponsorship Coordination Platform leverages a divers
 •	Redis: Used as an in-memory database to cache API responses, significantly enhancing performance. It also serves as a message broker for managing task queues with Celery.
 •	Flask-Caching: Employed to cache API outputs, further optimizing performance and reducing load times for frequently accessed data.
 
-API Design:
+## API Design:
 
 The project includes APIs for managing books and sections. It allows creating, updating, and deleting records using RESTful endpoints. 
 • User Authentication and Management
@@ -64,7 +64,7 @@ The project includes APIs for managing books and sections. It allows creating, u
 •	GET /api/sponsor-stats - Get Statistics for sponsors
 •	GET /api/admin-stats – Get Statistics for Admin
 
-Architecture:
+## Architecture:
 
 •	/application/: This directory houses all server-side code necessary for the operation of the application. It includes configuration files, models for database interactions, route definitions for handling API requests, and utility functions for repetitive tasks.
 •	models.py: Contains the SQLAlchemy models that define the database schema, encapsulating the structure of various entities such as sponsors, campaigns, and ad requests.
@@ -78,7 +78,7 @@ Architecture:
 •	requirements.txt: Lists the Python dependencies required for the backend, ensuring that the development environment can be easily replicated.
 •	main.py: Serves as the main entry point for launching the Flask application, initiating the server and making the application accessible.
 
-Features:
+## Features:
 
 The IESCP platform offers a comprehensive suite of features designed to facilitate seamless interaction between sponsors and influencers. Below are the key features of the application:
 1. User Roles and Authentication
@@ -114,7 +114,5 @@ The IESCP platform offers a comprehensive suite of features designed to facilita
 10. Robust Reporting and Analytics
 •	Dynamic Reporting Features: Generates reports and statistics on user activity, campaign performance, and ad request outcomes, aiding decision-making for sponsors and influencers alike.
 
-Database Schema Design:
-
-Video:
+## Video:
 https://drive.google.com/file/d/1dc2dRrNCJ3SFdg5V6pAJqHWc_B5a2Fj5/view?usp=drive_link
