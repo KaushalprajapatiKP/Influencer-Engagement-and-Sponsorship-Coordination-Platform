@@ -1,6 +1,5 @@
 # Project Name: Influencer Engagement & Sponsorship Coordination Platform - V2
-## Author:
-## Kaushal P Prajapati
+## Author: Kaushal P Prajapati
 ## University: Indian Institute of Technology, Madras (IITM)
 ## Course: Modern Application Development II
 
