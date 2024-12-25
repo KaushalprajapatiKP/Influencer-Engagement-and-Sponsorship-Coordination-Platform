@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Activity Report</title>
+</head>
+<body>
+    <h1>Monthly Activity Report for {{ sponsor_name }}</h1>
+    <p>Dear {{ sponsor_name }}, here is your monthly report for {{ month }}:</p>
+
+    <h2>Campaign Summary</h2>
+    <ul>
+        {% for campaign in campaigns %}
+        <li>
+            <strong>{{ campaign.name }}</strong> - Ads: {{ campaign.ads_pending }},
+            Budget Used: {{ campaign.budget_used }}/{{ campaign.budget }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Sales and Budget</h2>
+    <p>Remaining Budget: {{ remaining_budget }}💲</p>
+
+    <p>Thank you for your continued partnership!</p>
+</body>
+</html>
